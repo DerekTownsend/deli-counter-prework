@@ -7,5 +7,6 @@ def line(array)
   else
     array.each.with_index do |person,position|
 
+    end
   end
 end
