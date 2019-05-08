@@ -3,4 +3,6 @@ katz_deli = []
 
 def line(array)
   array.each do |position|
+
+  end
 end
