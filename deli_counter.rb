@@ -7,7 +7,7 @@ def line(array)
   else
     line=""
     array.each.with_index do |person,position|
-      line++"The line is currently: #{position+1}. #{person}"
+      line+="The line is currently: #{position+1}. #{person}"
     end
     puts line
   end
