@@ -26,5 +26,4 @@ def now_serving(array)
     name=array.first
     puts ""
   end
-  
 end
