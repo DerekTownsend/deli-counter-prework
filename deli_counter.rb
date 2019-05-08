@@ -9,5 +9,8 @@ def line(array)
     array.each.with_index do |person,position|
       info= "#{position+1}. #{person}"
     end
+    array.each do |person|
+      info= "#{position+1}. #{person}"
+    end
   end
 end
